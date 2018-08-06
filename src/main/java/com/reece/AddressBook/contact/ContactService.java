@@ -12,11 +12,6 @@ public class ContactService {
 	@Autowired
 	private ContactRepository contactRepository;
 
-	
-	public String hello() {
-		
-		return "hello";
-	}
 	public List<Contact> getAllContacts() {
 
 		List<Contact> contacts = new ArrayList<>();

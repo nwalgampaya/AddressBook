@@ -17,10 +17,7 @@ public class ContactController {
 	@Autowired
 	private ContactService contactService;
 
-	@GetMapping("/test")
-	public String hello() {
-		return contactService.hello();
-	}
+
 	
 	@GetMapping("/contacts")
 	public List<Contact> getAllContacts() {
