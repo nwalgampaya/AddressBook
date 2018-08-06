@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Aug 05 13:47:01 AEST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0165-0832-091e-00000f0cec08 
+on database directory memory:/home/nalin/Nalin/Work/Dev/workspace-sts-3.9.4.RELEASE/AddressBook/testdb with class loader sun.misc.Launcher$AppClassLoader@2a139a55 
+Loaded from file:/home/nalin/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=/home/nalin/Nalin/Work/Dev/workspace-sts-3.9.4.RELEASE/AddressBook
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-29-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
