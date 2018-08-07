@@ -1,10 +1,8 @@
-package com.reece.AddressBook.phone;
+package com.reece.AddressBook.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-
-import com.reece.AddressBook.contact.Contact;
 
 @Entity
 public class Phone {

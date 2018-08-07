@@ -1,4 +1,4 @@
-package com.reece.AddressBook.contact;
+package com.reece.AddressBook.controller;
 
 import java.util.List;
 
@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.reece.AddressBook.model.Contact;
+import com.reece.AddressBook.service.ContactService;
 
 @RestController
 public class ContactController {
@@ -33,7 +36,7 @@ public class ContactController {
 	
 	@PutMapping("/contacts/{id}")
 	public void updateContact(@RequestBody Contact contact) {
-		contactService.updateTopic(contact);
+		contactService.updateContact(contact);
 	}
 	
 	@DeleteMapping("/contacts/{id}")

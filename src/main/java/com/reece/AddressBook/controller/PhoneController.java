@@ -1,4 +1,4 @@
-package com.reece.AddressBook.phone;
+package com.reece.AddressBook.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,7 +12,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.reece.AddressBook.contact.Contact;
+import com.reece.AddressBook.model.Contact;
+import com.reece.AddressBook.model.Phone;
+import com.reece.AddressBook.service.PhoneService;
 
 @RestController
 public class PhoneController {

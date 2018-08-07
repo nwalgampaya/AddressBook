@@ -1,4 +1,4 @@
-package com.reece.AddressBook.contact;
+package com.reece.AddressBook.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
