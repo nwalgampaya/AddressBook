@@ -11,7 +11,7 @@ import com.reece.AddressBook.dao.PhoneRepository;
 import com.reece.AddressBook.model.Phone;
 
 @Service
-public class PhoneServiceImpl {
+public class PhoneServiceImpl implements PhoneService {
 
 	@Autowired
 	private PhoneRepository phoneRepository;
